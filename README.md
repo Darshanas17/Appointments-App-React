@@ -8,6 +8,15 @@
 
 The **Appointments App** is a simple yet interactive React application that allows users to add, star, and filter their appointments efficiently. The app leverages React's state management to dynamically update the list of appointments and apply filters.
 
+
+### ✅Refer to the image below:
+
+<br/>
+<div style="text-align: center;">
+    <img src="https://assets.ccbp.in/frontend/content/react-js/appointments-app-output.gif" alt="appointments app output" style="max-width:70%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
+</div>
+<br/>
+
 ## ✨ Features
 
 - **Add Appointments:** Users can enter an appointment title and date, which will be added to the list.
