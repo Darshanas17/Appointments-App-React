@@ -1,0 +1,80 @@
+/* List Container */
+.list-cont {
+  width: 100%;
+  max-width: 300px;
+  background: #fff;
+  border: 1px solid #d1d1e0;
+  border-radius: 12px;
+  padding: 12px;
+  margin: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.list-cont:hover {
+  transform: scale(1.03);
+}
+
+/* Row Styling */
+.row-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Appointment Title */
+.appointment-title {
+  color: #171f46;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Appointment Date */
+.appointment-date {
+  color: #6c757d;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  margin-top: 6px;
+}
+
+/* Star Button */
+.star-button-img {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.star-button-img:hover {
+  transform: scale(1.2);
+}
+
+/* Star Image */
+.star-img {
+  width: 22px;
+  height: 22px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .list-cont {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .appointment-title {
+    font-size: 14px;
+  }
+
+  .appointment-date {
+    font-size: 12px;
+  }
+
+  .star-img {
+    width: 18px;
+    height: 18px;
+  }
+}
